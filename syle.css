@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6%;
+}
+/* Main form styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+/* Table styling */
+.entries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-right: 20px;
+}
+#tc {
+    padding-top: 6px;
+    padding-right: 60px;
+}
+h1 {
+    margin-top: 0px;
+    font-size: 32px;
+    text-align: center;
+}
+/* inside of the form styling */
+form {
+    background-color: #dbd7d7;
+    padding: 20px;
+    width: 400px;
+    min-width: 300px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(113, 111, 111, 0.2);
+}
+.check-label {
+    display: flex;
+    align-items: center;
+}
+.checkbox-label input[type="checkbox"]{
+    margin-right: 10px;
+}
+.checkbox-text {
+    flex: 1;
+}
+/* styling of table rows & colmns */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(11, 156, 48, 0.4);
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+input[type="text"], input[type="email"], input[type="password"],
+input[type="date"], input[type="checkbox"]
+{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+input[type="checkbox"]
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+/* button styling */
+button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.button-disp
+{
+    text-align: center;
+}
+button:hover {
+    background-color: #3b8a3f;
+    transition-duration: 350ms;
+
+}
+
+
+
+
+
+
+
+
+
+
